@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "file manager",
   "main": "index.js",
+  "bin": {
+    "ffm": "bin/ffm.js",
+    "rnl": "bin/rnl.js"
+  },
   "scripts": {
     "test": "test"
   },
